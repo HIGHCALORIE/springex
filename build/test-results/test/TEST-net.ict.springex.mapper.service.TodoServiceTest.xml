@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ict.springex.mapper.service.TodoServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-14T08:41:21" hostname="DESKTOP-UJU62KB" time="0.096">
+  <properties/>
+  <testcase name="testRegister()" classname="net.ict.springex.mapper.service.TodoServiceTest" time="0.096"/>
+  <system-out><![CDATA[05:41:20  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+05:41:20  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78c7f9b3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6f8d7714, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e6b9a95, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d6f623d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@aa21042, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e93f3d5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4cee7fa0]
+05:41:21  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+05:41:21  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@25290bca
+05:41:21  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+05:41:21  INFO [net.ict.springex.service.TodoServiceImpl] org.modelmapper.ModelMapper@5626d18c
+05:41:21  INFO [net.ict.springex.service.TodoServiceImpl] TodoVO(tno=null, title=OOOOOOOOOOOOOOOOOOoo, dueDate=2022-11-14, finished=false, writer=TAEYOON)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
